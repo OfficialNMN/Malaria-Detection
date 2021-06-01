@@ -4,18 +4,18 @@ This Web Application is made using Convolutional Neural Networks and Transfer Le
 
 ### Model created is saved in a malaria_vgg.h5 file for further use.
 
-#### TransferLearning.ipynb
+#### ``` TransferLearning.ipynb ```
 This ipynb file has the whole tensorflow and kers code where the images are preprocessed, model is created, trained, compiled and then saved.
 
 #### WebApplication is to be created using Flask server as backend and HTML/CSS on frontend
-1. templates/ ----> base.html, index.html
-2. static/    ----> style.css, main.js
+1. ```templates/ ----> base.html, index.html```
+2. ```static/    ----> style.css, main.js```
 
-#### Requirements.txt
+#### ``` Requirements.txt ```
 requirements.txt file contains all the libraries/modules to be installed for running this project on cloud/local system.
 
-#### App.py
+#### ``` App.py ```
 This python file contains the flask app written which contains routes for runnning it on web and also containing keras preproceesing where the image uploaded is first converted to an array of pixels which is then given to the loaded model.
 
-#### Procfile
+#### ``` Procfile ```
 This tells browser what file to execute while running the app.
